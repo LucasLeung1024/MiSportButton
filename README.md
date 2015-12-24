@@ -3,7 +3,14 @@
 ## 效果
 ![](https://github.com/Kevin-Stark/MiSportButton/blob/master/GIF/MiSportButton.gif)
 ## 使用
-···Java
+``` XML
+    <com.kevin.misportbutton.MiSportButton
+        android:id="@+id/mi_btn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </com.kevin.misportbutton.MiSportButton>
+```
+```Java
 mBtn = (MiSportButton) findViewById(R.id.mi_btn);
 		mBtn.setMiSportBtnClickListener(new MiSportButton.miSportButtonClickListener() {
 			@Override
@@ -23,4 +30,4 @@ mBtn = (MiSportButton) findViewById(R.id.mi_btn);
 
 			}
 		});
-		```
+```
