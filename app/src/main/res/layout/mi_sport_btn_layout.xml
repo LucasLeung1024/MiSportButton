@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0A0A1E">
+
+    <!--最中心的按钮-->
+    <Button
+        android:id="@+id/long_pressed_pause_tbn"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:background="@mipmap/long_press"
+        android:text="长按暂停"
+        android:textColor="@android:color/white"
+        android:visibility="visible" />
+
+    <!--完成按钮-->
+    <Button
+        android:id="@+id/finish_btn"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:layout_toLeftOf="@id/long_pressed_pause_tbn"
+        android:background="@mipmap/finish_continue"
+        android:text="完成"
+        android:textColor="@android:color/white"
+        android:visibility="gone" />
+
+    <!--继续按钮-->
+    <Button
+        android:id="@+id/continue_btn"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:layout_toRightOf="@id/long_pressed_pause_tbn"
+        android:background="@mipmap/finish_continue"
+        android:text="继续"
+        android:textColor="@android:color/white"
+        android:visibility="gone" />
+
+</RelativeLayout>
