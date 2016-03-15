@@ -15,19 +15,19 @@ mBtn = (MiSportButton) findViewById(R.id.mi_btn);
 		mBtn.setMiSportBtnClickListener(new MiSportButton.miSportButtonClickListener() {
 			@Override
 			public void finishClick() {
-
+					//TODO 完成之后的点击事件
 			}
 
 			@Override
 			public void continueClick() {
-
+                    //TODO 继续
 			}
 		});
 
 		mBtn.setMiSportBtnLongClickListener(new MiSportButton.miSportButtonLongClickListener() {
 			@Override
 			public void longPressClick() {
-
+                  //TODO 长按之后做的事情
 			}
 		});
 ```
